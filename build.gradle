@@ -12,12 +12,11 @@ repositories {
 
 dependencies {
     ext {
-        groovyVersion = '2.5.0'
+        groovyVersion = '2.5.13'
         vertxVersion = '3.8.5'
     }
 
     compile("org.codehaus.groovy:groovy:${groovyVersion}")
-    compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
 
     compile("io.vertx:vertx-core:${vertxVersion}")
     compile("io.vertx:vertx-redis-client:${vertxVersion}")
