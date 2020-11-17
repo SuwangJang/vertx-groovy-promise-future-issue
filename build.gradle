@@ -20,6 +20,7 @@ dependencies {
 
     compile("org.codehaus.groovy:groovy:${groovyVersion}")
     compile("io.vertx:vertx-core:${vertxVersion}")
+    compile("io.vertx:vertx-lang-groovy:${vertxVersion}")
     compile("io.vertx:vertx-micrometer-metrics:${vertxVersion}")
     compile("io.netty:netty-transport-native-epoll:${nettyVersion}.Final:linux-x86_64")
     compile("io.netty:netty-transport-native-kqueue:${nettyVersion}.Final:osx-x86_64")
