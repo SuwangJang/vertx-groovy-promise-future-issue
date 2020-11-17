@@ -6,5 +6,5 @@ Probably @CacheReturn, vertx.codegen annotation processor, causes it.
 
 This example source shows such a strange behavior.
 
-Just run "loop.sh" (It will be stopped when future().onComplete() not be called.)
+Just run "loop.sh" (It will be stopped when future().onComplete() was not called.)
 
