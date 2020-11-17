@@ -2,7 +2,7 @@ package org.example.vertx.promise;
 
 import io.vertx.core.*;
 
-public class PromiseFuture {
+public class PromiseFutureJava {
 
     public static class TestVerticle extends AbstractVerticle {
 
